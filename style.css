@@ -1,5 +1,6 @@
 nav{
-    height: 7vh;
+    margin-top: 5vh;
+    height: 4vh;
     /* width: 100%; */
     padding: 1vh 7vw;
     display: flex;
@@ -12,8 +13,13 @@ nav{
     gap: 3vw;
 }
 #navlinks a{
-    color: rgb(0, 160, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: larger;
+}
+#icons {
+    display: flex;
+    gap: 20px;
 }
 main{
     display: flex;
@@ -22,6 +28,7 @@ main{
     /* justify-content: center; */
 }
 .banner{
+    margin-top: 5vh;;
     padding: 8vh;
     display: flex;
     flex-direction: column;
@@ -50,9 +57,10 @@ main{
     
 }
 .banner1{
-    background-image: url(deers.jpg);
+    background-image: url(pictures/deers.jpg);
     background-position: center;
-
+    display: flex;
+    justify-content: center;
 }
 
 .bannerlinks{
