@@ -1,7 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 nav{
     margin-top: 5vh;
     height: 4vh;
-    /* width: 100%; */
+    width: 76vw;
     padding: 1vh 7vw;
     display: flex;
     justify-content: space-between;
@@ -48,7 +53,7 @@ main{
 } */
 
 .bannertxt{
-    /* padding: 10vh; */
+    margin: 10vh;
     /* width: 70%; */
     color: white;
     font-size: 45px;
@@ -60,7 +65,7 @@ main{
     background-image: url(pictures/deers.jpg);
     background-position: center;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .bannerlinks{
@@ -80,12 +85,20 @@ details[open] summary {
     display: none;
   }
   .cards{
-    height: 200px;
+    margin-top: 10vh;
     display: flex;
-    justify-content: center;
+    gap: 10vw;
+    width: 90vw;
     flex-wrap: wrap;
+    justify-content: center;
+    
+
   }
   .card{
-    height: 50px;
-    width: 200px;
+    padding: 20px;
+    width: 34vw;
+    background-color: rgba(255, 224, 84, 0.6);
+    border: solid black 2px;
+    border-radius: 20px;
+    text-align: center;
   }
