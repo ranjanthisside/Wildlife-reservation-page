@@ -22,6 +22,7 @@ nav{
     text-decoration: none;
     font-size: larger;
 }
+
 #icons {
     display: flex;
     gap: 20px;
@@ -102,3 +103,65 @@ details[open] summary {
     border-radius: 20px;
     text-align: center;
   }
+
+  /*For Computer Screen*/
+  @media (min-width: 1024px) {
+ #threeline{
+    display: none;;
+ }
+}
+
+/* for tablet screen */
+  @media (min-width: 600px) and (max-width: 1023px) {
+    #threeline{
+        display: none;
+    }
+}
+
+
+/* for mobile screen */
+@media (max-width: 599px) {
+    nav{
+        margin-top: 2vh;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navlinks{
+        display: none;
+    }
+    .banner{
+        margin: 5vw;
+        height: 30vh;
+        width: 50vw;
+    }
+    .bannertxt{
+        margin: 0;
+        font-size: 25px;
+    }
+    .cards{
+        /* display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1vw;
+        margin-right: 1vw; */
+        margin-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card{
+        width: 100%;
+        height: 25vh;
+        
+    }
+    .cardtext{
+        font-size: 15px;
+        text-align: left;
+    }
+}
