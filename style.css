@@ -103,6 +103,34 @@ details[open] summary {
     border-radius: 20px;
     text-align: center;
   }
+.blogs{
+    margin-top: 0;
+  }
+.blog{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+}
+.blgtxt{
+    width: 25vw;
+    padding-left: 3vw;
+    text-align: left;
+    font-size: large;
+}
+.stories{
+    margin-top: 0;
+  }
+.story{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+}
+.strtxt{
+    width: 40vw;
+    padding-left: 3vw;
+    text-align: left;
+    font-size: large;
+}
 
   /*For Computer Screen*/
   @media (min-width: 1024px) {
